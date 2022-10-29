@@ -10,7 +10,7 @@ le modèle de base est l'Alexandrin de Mithridate, 6 pieds + 6 pieds avec un hé
 Ce bot se base sur le module Python `plint` créé par Antoine Amarilli. <br>
 https://pypi.org/project/plint/
 
-## Utilisation
+## Mise en place
 
 Cloner le repository :
 ```shell
@@ -26,6 +26,8 @@ Installer les modules nécessaires :
 pip3 install frhyme
 pip3 install haspirater
 ```
+
+Installer Node.js : <br>https://nodejs.org/en/download/
 
 ### Dans le dossier du repository ( `AlexandreBot/` ) :
 
@@ -46,8 +48,12 @@ Installer Discord.js
 npm install discord.js
 ```
 
+## Utilisation
+
 ### Lancer le bot
 
 ```shell
 npm start
 ```
+
+Le bot réagira maintenant à chaque message en alexandrin avec ✅
