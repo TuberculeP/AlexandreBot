@@ -42,20 +42,9 @@ Créer votre fichier `.env` contenant le token de votre bot discord
 TOKEN=VOTRE_TOKEN_ICI
 ```
 
-Installer dotenv
+Installer les dépendances
 ```shell
-npm install dotenv
-```
-
-Installer tmp
-```shell
-npm install tmp
-```
-
-Installer Discord.js
-
-```shell
-npm install discord.js
+npm install
 ```
 
 ## Utilisation
