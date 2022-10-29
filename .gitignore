@@ -1,4 +1,4 @@
-plint
-node_modules
+plint/
+node_modules/
 .env
 package-lock.json
