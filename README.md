@@ -42,6 +42,16 @@ Créer votre fichier `.env` contenant le token de votre bot discord
 TOKEN=VOTRE_TOKEN_ICI
 ```
 
+Installer dotenv
+```shell
+npm install dotenv
+```
+
+Installer tmp
+```shell
+npm install tmp
+```
+
 Installer Discord.js
 
 ```shell
@@ -57,3 +67,7 @@ npm start
 ```
 
 Le bot réagira maintenant à chaque message en alexandrin avec ✅
+
+Il est possible de demander au bot une explication à un message non détecté. Il suffit de répondre au message concerné et d'écrire `::logs`.
+
+![demonstration_reply.png](demonstration_reply.png)

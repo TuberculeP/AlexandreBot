@@ -1,7 +1,7 @@
 {
-  "name": "XII",
-  "version": "1.0.0",
-  "description": "",
+  "name": "AlexandreBot",
+  "version": "1.1",
+  "description": "Le bot des alexandrins",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.6.0"
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "tmp": "^0.2.1"
   }
 }
