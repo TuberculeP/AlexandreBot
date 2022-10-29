@@ -2,9 +2,9 @@ console.log("Cool Bot");
 
 //from fuc,ing internet
 
-const token = "NzE4ODY3MjYzNDUyODcyNzk1.GTp72w.3g8i4p3wHNRVRkdxrqxWcpw3JUJFBai-eYgutg";
+const token = process.env.TOKEN;
 const {Client, GatewayIntentBits} = require("discord.js");
-const {exec} = require("child_process");
+//const {exec} = require("child_process");
 const client = new Client({
     intents:[
         GatewayIntentBits.Guilds,
@@ -23,7 +23,7 @@ client.on("messageCreate", (message)=>{
 
     var exec = require('child_process').exec;
     exec('python3 -m plint plint/plint/test_data/mithridate.tpl< temp/tempmessage.txt',
-        function (error, stdout, stderr) {
+        function (error) {
             if (error === null && message. attachments.size === 0) {
                 message.react('✅');
             }
